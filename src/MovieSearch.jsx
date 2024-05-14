@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from 'react'
 
 export const MovieSearch = () => {
@@ -33,7 +33,7 @@ export const MovieSearch = () => {
   }
 
   return (
-    <React.Fragment>
+    
       <div className="container">
         <h1 className="title">Buscador de películas</h1>
         <form onSubmit={handleInputSubmit}>
@@ -55,6 +55,6 @@ export const MovieSearch = () => {
           ))}
           </div>
       </div>
-    </React.Fragment>
+    
   )
 }
